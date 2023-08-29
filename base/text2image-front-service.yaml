@@ -7,9 +7,9 @@ metadata:
   name: text2image-front-service
 spec:
   ports:
-    - port: 8081
+    - port: 8080
       protocol: TCP
-      targetPort: 8081
+      targetPort: 80
   selector:
     app: text2image-front-deployment
   type: NodePort
