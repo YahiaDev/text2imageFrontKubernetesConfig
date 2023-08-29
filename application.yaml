@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/YahiaDev/text2imageWebKubernetesConfig.git
+    repoURL: https://github.com/YahiaDev/text2imageFrontKubernetesConfig.git
     targetRevision: HEAD
     path: overlays/dev/manifest
   destination:
