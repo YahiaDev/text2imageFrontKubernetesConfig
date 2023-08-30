@@ -37,7 +37,7 @@ spec:
       - env:
         - name: SPRING_PROFILES_ACTIVE
           value: dev
-        image: yahiadev/text2imagefront:0.0.2.2
+        image: yahiadev/text2imagefront:0.0.2.3
         imagePullPolicy: Always
         name: text2image-front-deployment
         ports:
